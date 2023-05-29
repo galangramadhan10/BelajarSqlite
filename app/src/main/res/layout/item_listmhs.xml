@@ -8,6 +8,7 @@
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cvItem"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -20,13 +21,15 @@
                 android:id="@+id/tvNamaVal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/tvNimVal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/tvNoHpVal"
